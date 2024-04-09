@@ -6,6 +6,7 @@ RUN yum update -y \
  && yum install -y \
     unzip \
     jq \
+    findutils \
  && yum clean -y all
 RUN rm -rf /var/cache/yum
 
